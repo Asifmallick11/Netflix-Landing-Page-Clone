@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;800&display=swap');
+
+*{
+    margin : 0 ;
+    padding : 0 ; 
+    box-sizing: border-box;
+}
+
+html { 
+    font-size: 62.5% ;
+}
+
+.line {
+    border : 5px solid #202020 ;
+}
+
+.space {
+    height: 100vh;
+}
+
+h1 {
+    font-size: 4.8rem;
+}
+
+ h3 {
+    font-size: 2.4rem;
+    font-weight: 200;
+    
+}
+
+h4 {
+    font-size: 2.2rem;
+    font-weight: 200;
+    
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.background-image {
+        
+        width: auto;
+        height : 90vh ; 
+        background-image: linear-gradient(rgba(0,0,0,0.6) , rgba(0,0,0,0.6)) , url(header-image.png) ;
+        background-size: cover;
+        background-position: center;
+
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 117rem;
+    margin: auto;
+    padding: 2.3rem 0;
+}
+
+.logo {
+    width: 14rem;
+}
+
+.navbar-button1 {
+    font-size: 1.6rem;
+    background: transparent;
+    padding : 0.7rem 1.5rem ;
+    border : 1px solid white ; 
+    border-radius: 0.4rem;
+    color: white;
+}
+
+i {
+    margin : 0px 2px ; 
+}
+
+.navbar-button2 { 
+    background-color: red;
+    font-size: 1.6rem;
+    color: white;
+    padding : 0.7rem 1.5rem ;
+    border-radius: 0.4rem;
+    margin-left: 2.4rem;
+    border : none;
+    
+}
+
+.navbar-button2:hover {
+    background-color: #c11119;
+}
+
+.email-area {
+    color: white;
+    width: fit-content;
+    margin: 194px auto;
+    text-align: center;
+
+}
+
+.email-area h1 {
+    font-size: 4.8rem;
+}
+
+.email-area h3 {
+    font-size: 2.4rem;
+    font-weight: 200;
+    margin: 16px 0 0 0;
+}
+
+.email-area h4 {
+    font-size: 2.2rem;
+    font-weight: 200;
+    margin: 24px  0 16px 0 ;
+}
+
+input { 
+    padding : 1.5rem 3rem ; 
+    background: white;
+    font-size: 2rem;
+    border: none;
+    width: 35rem;
+    border-radius: 5px;
+  
+}
+  
+.getstartedbutton {
+    padding : 1.5rem 2.5rem ; 
+    border: none;
+    font-size: 2rem;
+    margin-left: 0.8rem;
+    background-color: #e50914;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.feature-section {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;    
+    padding: 7.2rem 17.5rem;
+}
+
+.feature-image {
+    width: 100%;
+}
+
+.faq {
+    background-color: black;
+    
+}
+
+.contaier {
+    color: white;
+    padding: 7.2rem 17.5rem;
+    line-height:  1.6rem ;
+    
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 4rem;
+    font-size: 4.8rem;
+    line-height: 1.5;
+}
+
+.accordian {
+    background-color : #2d2d2d ; 
+    padding : 0.5rem 1rem;
+    margin-bottom:1.6rem; 
+    cursor : pointer ; 
+}
+
+.question { 
+    display : flex ; 
+    align-items: center;
+    justify-content: space-between;
+    font-size: 3rem;
+    padding: 2.7rem 2.4rem;
+
+}
+
+.icon {
+    margin-right: 1.6rem;
+}
+
+.icon.active {
+    transform: rotate(180deg);
+}
+
+.answer {
+    font-weight: 500;
+    font-size: 2.4rem;
+    color : white; 
+    max-height: 0;
+    line-height: 2;
+    overflow : hidden ; 
+    margin: 0 2.4rem;
+}
+
+.answer.active {
+    max-height:fit-content;
+    margin-top: 5px;
+}
+
+.email{
+    text-align: center;
+    margin: 47px 0 0 0;
+}
+
+.email-button {
+    margin: 30px 0;
+}
+
+.footer {
+    background-color: black;
+    color: rgb(223, 202, 202);
+    width: 100%;
+}
+
+.footer-container {
+    max-width: 117rem;
+    margin: auto;
+}
+
+.contact-number {
+    padding: 6rem 0 0 0;
+}
+
+.contact-number h4{
+    padding: 1rem 0;
+    font-size: 1.5rem;
+}
+
+.footer-links {
+     display: flex;
+     justify-content: space-between;
+     margin: 1.6rem 0 ;
+}
+
+.link-column {
+    display: flex;
+    flex-direction: column;
+    line-height: 2;
+    margin-right: 250px;
+}
+
+.hover-link {
+    color: grey;
+    font-size: 1.5rem;
+}
+
+.footer-language {
+    font-size: 1.6rem;
+    background: transparent;
+    padding : 0.7rem 1.5rem ;
+    border : 1px solid white ; 
+    border-radius: 0.4rem;
+    color: white;
+    
+}
+
+.footer-button{
+    margin: 12px 0;
+    padding: 12px 0;
+}
+
+.footer-netflix h4 {
+    font-size: 1.5rem;
+    padding-bottom: 6rem;
+}
+
+
+@media screen and (max-width : 1280px) {
+
+    .navbar {
+        margin: 0 32px;
+    }
+
+    .feature-section { 
+        padding: 7.2rem 3.2rem;
+    }
+
+    .contaier {
+        padding: 7.2rem 3.2rem;
+    }
+
+    .footer-container {
+       
+        margin: 0 32px ;
+    }
+
+    
+}
+
+@media screen and (max-width : 960px){
+
+    html { 
+        font-size: 45% ;
+    }
+
+
+    .background-image {
+        height : 75vh ; 
+    }
+
+    .email-area {
+        margin: 130px auto;
+    }
+
+    .feature-section {
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .feature-image { 
+        width: 85%;
+        margin: 50px 0 0 0 ;
+    }
+
+    .footer-links {
+        flex-wrap: wrap;
+    }
+
+    .link-column {
+        margin-right: 40px;
+    }
+
+
+
+}
+
+@media screen and (max-width : 645px){
+
+    html { 
+        font-size: 40% ;
+    }
+
+    .info {
+        line-height: 1.3;
+    }
+
+}
+
+@media screen and (max-width : 460px){
+
+    .email-area {
+        margin: 120px 32px;
+    }
+
+    .email h4 {
+        line-height: 1.5;
+    }
+
+}
+
+@media screen and (max-width : 420px){
+
+    .getstartedbutton {
+        margin-top: 10px;
+    }
+}
+
+
+@media screen and (max-width : 350px){
+
+    html { 
+        font-size: 35% ;
+    }
+
+    .email-area {
+        margin: 70px 32px;
+    }
+
+}
+
+@media screen and (max-width : 260px){
+
+    html { 
+        font-size: 25% ;
+    }
+    
+}
